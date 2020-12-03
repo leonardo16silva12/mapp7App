@@ -9,10 +9,11 @@
  trabalhar.
 
 ## ⚙️ Requisitos
- ###   Possuir Java JDK instalado no computador
-       -[Node](https://nodejs.org/dist/v14.15.1/node-v14.15.1-x64.msi)
- ###   Possuir Node instalado no computador
-       -[JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+ ###   Possuir Java JDK instalado
+ ###### [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+ ###   Possuir Node instalado
+ ###### [Node](https://nodejs.org/dist/v14.15.1/node-v14.15.1-x64.msi)
+
 
 ## ▶️ Como executar?
  ###  Instalar as dependências:
