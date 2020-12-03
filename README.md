@@ -9,22 +9,22 @@
  trabalhar.
 
 ## Requisitos
- ### * Possuir Java JDK instalado no computador
+ ####  Possuir Java JDK instalado no computador
       [Node](https://nodejs.org/dist/v14.15.1/node-v14.15.1-x64.msi)
- ### * Possuir Node instalado no computador
+ ####  Possuir Node instalado no computador
       [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
 ## Como executar?
- ### * Instalar as dependências:
+ ####  Instalar as dependências:
        npm i
       
- ### * Executar o projeto:
+ ####  Executar o projeto:
        ionic serve
       
- ### * Acessar a aplicação:
+ ####  Acessar a aplicação:
       http://localhost:8100/
       
- ### * Executar emulador:
+ ####  Executar emulador:
       ionic cordova run android/ios/browser
   
 ## Imagens do Projeto
