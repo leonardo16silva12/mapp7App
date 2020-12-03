@@ -7,9 +7,9 @@
 
 
 ## 💡 Conceito
- Esse projeto tem como objetivo oferecer um sistema delivery de serviços mecânicos, 
- oferecendo ao usuário um serviço simples e eficaz e ao mecânico um meio onde ele possa
- trabalhar.
+##### Esse projeto tem como objetivo oferecer um sistema delivery de serviços mecânicos, 
+##### oferecendo ao usuário um serviço simples e eficaz e ao mecânico um meio onde ele possa
+##### trabalhar.
  
  
  
@@ -25,16 +25,16 @@
 
 ## ▶️ Como executar?
  ###  Instalar as dependências:
-       npm i
+##### npm i
       
  ###  Executar o projeto:
-       ionic serve
+##### ionic serve
       
  ###  Acessar a aplicação:
-       http://localhost:8100/
+##### http://localhost:8100/
       
  ###  Executar emulador:
-      ionic cordova run android/ios/browser
+##### ionic cordova run android/ios/browser
       
       
       
@@ -55,6 +55,6 @@
 
 
 ## 👏🏻 Agradecimentos
-  Agradeço a todos os envolvidos no projeto, tanto os membros do grupo quanto os professores
-  que nos ajudaram quando surgiram as dúvidas em relação ao desenvolvimento do aplicativo.
+#####  Agradeço a todos os envolvidos no projeto, tanto os membros do grupo quanto os professores
+#####  que nos ajudaram quando surgiram as dúvidas em relação ao desenvolvimento do aplicativo.
 
