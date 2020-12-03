@@ -29,17 +29,13 @@
   
 ## 🖥 Imagens do Projeto
 
-![](https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/login.png)
-
-![](https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/register.png)
-
-![](https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/tab1.png)
-
-![](https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/tab2.png)
-
-![](https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/tab3.png)
-
-
+<p align="center">
+  <img alt="Screen" src="https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/login.png" width="30%" height="30%">
+  <img alt="Screen" src="https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/register.png" width="30%" height="30%">
+  <img alt="Screen" src="https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/tab1.png" width="30%" height="30%">
+  <img alt="Screen" src="https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/tab2.png" width="30%" height="30%">
+   <img alt="Screen" src="https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/tab3.png" width="30%" height="30%">
+</p>
 
 ## 👏🏻 Agradecimentos
   Agradeço a todos os envolvidos no projeto, tanto os membros do grupo quanto os professores
