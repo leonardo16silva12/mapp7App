@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="vermelho">
+    <ion-title>Configurações</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button> </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item-group>
+    <ion-text class="titleT"> Conta </ion-text>
+
+    <ion-item class="optionT" routerLink="/change-photo">
+      <ion-icon color="vermelho" name="image"></ion-icon>
+      &nbsp; Alterar foto
+    </ion-item>
+
+    <ion-item class="optionT" routerLink="/change-name">
+      <ion-icon color="vermelho" name="information-sharp"></ion-icon>
+      &nbsp; Alterar nome
+    </ion-item>
+
+    <ion-item class="optionT" routerLink="/change-displayname">
+      <ion-icon color="vermelho" name="at-sharp"></ion-icon>
+      &nbsp; Alterar apelido
+    </ion-item>
+
+    <ion-item class="optionT" (click)="showAlertDeleteAccount()">
+      <ion-icon color="vermelho" name="remove-circle-outline"></ion-icon>
+      &nbsp; Remover Conta
+    </ion-item>
+
+  </ion-item-group>
+
+  <ion-item-group>
+    <ion-text class="titleT"> Preferências </ion-text>
+
+    <ion-item class="optionT" routerLink="/about">
+      <ion-icon color="vermelho" name="information-circle"></ion-icon>
+      &nbsp; Sobre
+    </ion-item>
+  </ion-item-group>
+</ion-content>

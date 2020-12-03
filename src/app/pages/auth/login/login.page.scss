@@ -1,0 +1,69 @@
+.photoL {
+    max-width: 125px;
+    max-height: 125px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.magic {
+    display: flex;
+    margin: auto;
+}
+
+ion-radio {
+    --color: #E02041;
+}
+
+ion-input {
+    display: flex;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    --placeholder-font-style: 'Roboto', sans-serif;
+}
+
+
+
+.magicT {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #E02041;
+}
+
+.textT {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #E02041;
+}
+
+.textPR{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #E02041;
+}
+
+.textB {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+ion-card {
+    -webkit-box-shadow: -2px 3px 56px -7px rgba(224,32,64,1);
+    -moz-box-shadow: -2px 3px 56px -7px rgba(224,32,64,1);
+    box-shadow: -2px 3px 56px -7px rgba(224,32,64,1);
+}
+
+
+
+

@@ -1,0 +1,7 @@
+{
+  "name": "mapp7App",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

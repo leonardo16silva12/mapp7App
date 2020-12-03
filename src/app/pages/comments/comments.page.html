@@ -1,0 +1,112 @@
+<ion-header>
+  <ion-toolbar color="vermelho">
+    <ion-buttons>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item lines="none" class="itemChat">
+    <ion-input [(ngModel)]="text"></ion-input>
+    <ion-buttons slot="end">
+      <ion-button (click)="send()" class="buttonSend">
+        <ion-icon color="graychat" name="send"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-item>
+
+  <br>
+
+  <div *ngFor="let chat of chatRef">
+
+    <div *ngIf="userLocal.email == chat.userId" (click)="chat.options = !chat.options">
+
+      <ion-card class="enviada">
+        <ion-row>
+          <ion-col size="4">
+
+            <ion-avatar>
+              <img [src]="chat.img">
+            </ion-avatar>
+
+            <ion-text class="ion-text-center">
+              <p class="nomeE">{{chat.name}}</p>
+            </ion-text>
+
+            <ion-text class="ion-text-center">
+              <p class="dataHoraE">{{chat.data}} {{chat.hora}}</p>
+            </ion-text>
+
+
+          </ion-col>
+          <ion-col size="7" class="msgEnviada">
+
+            <ion-text>
+              <p class="ion-description msgE">{{chat.message}}</p>
+            </ion-text>
+
+          </ion-col>
+
+          <ion-col size="1">
+
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </div>
+
+
+    <div *ngIf="userLocal.email != chat.userId" class="chat" (click)="chat.options = !chat.options">
+
+
+      <ion-card class="recebida">
+        <ion-row>
+
+          <ion-col size="4">
+
+            <ion-avatar>
+              <img [src]="chat.img">
+            </ion-avatar>
+
+
+            <ion-text class="ion-text-center">
+              <p class="nomeR">{{chat.name}}</p>
+            </ion-text>
+
+            <ion-text class="ion-text-center">
+              <p class="dataHoraR">{{chat.data}} {{chat.hora}}</p>
+            </ion-text>
+
+            <div class="avaliar" *ngIf="post.avaliado == false && chat.tipo === 'mecanico'"
+            [routerLink]="['/view-post/' + chat.chat + '/' + chat.userId]">
+            <ion-button expand="block" color="graychat" class="ion-text-center">
+            Avaliar
+          </ion-button>
+          </div>
+          </ion-col>
+
+          <ion-col size="7" class="msgRecebida">
+
+            <ion-text>
+              <p class="ion-description msgR">{{chat.message}}</p>
+            </ion-text>
+
+          </ion-col>
+
+          <ion-col size="1">
+
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </div>
+
+
+  </div>
+
+  <ion-infinite-scroll threshold="300px" (ionInfinite)="loadData($event)">
+    <ion-infinite-scroll-content color="vermelho" loadingSpinner="crescent" loadingText="Carregando mensagens...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>

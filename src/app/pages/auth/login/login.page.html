@@ -1,0 +1,112 @@
+<ion-content class="ion-padding" swipeEnabled="false">
+
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col col-6>
+      <div>
+        <img class="photoL" src="../../../../assets/logotcc.png">
+      </div>
+    </ion-col>
+    <ion-col>
+      <div></div>
+    </ion-col>
+  </ion-row>
+
+  <form class="form" [formGroup]="validations">
+  <ion-card color="light">
+    <ion-list lines="none">
+
+        <ion-item>
+          <ion-input class="textInput" position="floating" formControlName="email" placeholder="Email" type="text" #email required></ion-input>
+          <ng-container *ngFor="let validation of validationsMSG.email">
+            <div class="errorMSG"
+              *ngIf="validations.get('email').hasError(validation.type) && (validations.get('email').dirty || validations.get('email').touched)">
+              {{ validation.message }}
+            </div>
+          </ng-container>
+        </ion-item>
+        
+        <br>
+
+        <ion-item>
+          <ion-input class="textInput" position="floating" formControlName="password" placeholder="Senha" type="password" #password required></ion-input>
+          <ng-container *ngFor="let validation of validationsMSG.password">
+            <div class="errorMSG"
+              *ngIf="validations.get('password').hasError(validation.type) && (validations.get('password').dirty || validations.get('password').touched)">
+              {{ validation.message }}
+            </div>
+          </ng-container>
+        </ion-item>
+        
+
+
+    </ion-list>
+  </ion-card>
+
+  <ion-button class="textPR" fill="clear" expand="full" (click)="goToPasswordRecover()" mode="md">
+    Esqueci minha senha
+  </ion-button>
+
+  <br>
+
+
+  <ion-button [disabled]="!validations.valid" class="textT" color="vermelho" shape="round" expand="full" size="medium" type="submit"
+    (click)="logIn(email, password)">
+    Entrar
+  </ion-button>
+</form>
+
+<br>
+
+  <ion-button class="textT" fill="clear" expand="full" (click)="goToSignup()">
+    Ainda não sou cadastrado!
+  </ion-button>
+
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Sign in User</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>    
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" #email required></ion-input>
+    </ion-item> 
+
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" #password required></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col> 
+      <ion-button type="submit" (click)="logIn(email, password)" expand="block">Login</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
+-->
+
+
+  <!-- <ion-button class="textB" color="vermelho" shape="round" expand="full" size="medium" type="submit"
+  (click)="logInWithGoogle()">
+  <ion-icon slot="start" name="logo-google"d></ion-icon>
+  <ion-text class="textB">Login com Google</ion-text>
+</ion-button> -->
