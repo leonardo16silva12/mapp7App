@@ -3,33 +3,33 @@
 # Mapp7
 ## Trabalho de Conclusão de Curso 3º Etim. Informática
 
-### Conceito
+## Conceito
  Esse projeto tem como objetivo oferecer um sistema delivery de serviços mecânicos, 
  oferecendo ao usuário um serviço simples e eficaz e ao mecânico um meio onde ele possa
  trabalhar.
 
-### Requisitos
-  * Possuir Java JDK instalado no computador
+## Requisitos
+ ## * Possuir Java JDK instalado no computador
       [Node](https://nodejs.org/dist/v14.15.1/node-v14.15.1-x64.msi)
-  * Possuir Node instalado no computador
+ ## * Possuir Node instalado no computador
       [JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
-### Como executar?
-  * Instalar as dependências:
-      npm i
+## Como executar?
+ ## * Instalar as dependências:
+      <br/> npm i
       
-  * Executar o projeto:
-      ionic serve
+ ## * Executar o projeto:
+      <br/> ionic serve
       
-  * Acessar a aplicação:
+ ## * Acessar a aplicação:
       http://localhost:8100/
       
-  * Executar emulador:
+ ## * Executar emulador:
       ionic cordova run android/ios/browser
   
-### Imagens do Projeto
-![](https://github.com/leonardo16silva12/mapp7App/src/assets/login.jpg)
-![](https://github.com/leonardo16silva12/mapp7App/src/assets/register.jpg)
+## Imagens do Projeto
+![](https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/login.jpg)
+![](https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/register.jpg)
 
 
 ## Agradecimentos
