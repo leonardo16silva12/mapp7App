@@ -4,7 +4,8 @@
 ## Trabalho de Conclusão de Curso 3º Etim. Informática
 
 
-
+<br/>
+<br/>
 
 ## 💡 Conceito
 ##### Esse projeto tem como objetivo oferecer um sistema delivery de serviços mecânicos, 
@@ -12,7 +13,8 @@
 ##### trabalhar.
  
  
- 
+ <br/>
+ <br/>
 
 ## ⚙️ Requisitos
  ###   Possuir Java JDK instalado
@@ -20,8 +22,8 @@
  ###   Possuir Node instalado
  ##### [Node](https://nodejs.org/dist/v14.15.1/node-v14.15.1-x64.msi)
 
-
-
+<br/>
+<br/>
 
 ## ▶️ Como executar?
  ###  Instalar as dependências:
@@ -37,7 +39,8 @@
 ##### ionic cordova run android/ios/browser
       
       
-      
+<br/>
+<br/>
       
   
 ## 🖥 Imagens do Projeto
@@ -51,7 +54,8 @@
 </p>
 
 
-
+<br/>
+<br/>
 
 
 ## 👏🏻 Agradecimentos
