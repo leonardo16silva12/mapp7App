@@ -53,10 +53,7 @@
    <img alt="Screen" src="https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/tab3.png" width="30%" height="30%">
 </p>
 
- ###  Executar emulador:
-##### ionic cordova run android/ios/browser
-
-##### O vídeo da demonstração, pode ser encontrado em:
+#### O vídeo da demonstração, pode ser encontrado em:
 ##### https://youtu.be/IUJ04W9yfjE
 
 
