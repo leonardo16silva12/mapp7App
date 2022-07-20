@@ -52,6 +52,8 @@
   <img alt="Screen" src="https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/tab2.png" width="30%" height="30%">
    <img alt="Screen" src="https://github.com/leonardo16silva12/mapp7App/blob/main/src/assets/tab3.png" width="30%" height="30%">
 </p>
+##### O vídeo da demonstração, pode ser encontrado em:
+##### https://youtu.be/IUJ04W9yfjE
 
 
 <br/>
@@ -59,6 +61,6 @@
 
 
 ## 👏🏻 Agradecimentos
-#####  Agradeço a todos os envolvidos no projeto, tanto os membros do grupo quanto os professores
+#####   Agradeço a todos os envolvidos no projeto, tanto os membros do grupo quanto os professores
 #####  que nos ajudaram quando surgiram as dúvidas em relação ao desenvolvimento do aplicativo.
 
